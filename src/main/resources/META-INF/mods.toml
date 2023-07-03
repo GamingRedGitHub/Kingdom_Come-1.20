@@ -1,0 +1,28 @@
+
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+[[mods]]
+modId="kingdomcome"
+version="1.20.1-1.0"
+displayName="Kingdom Come Mod"
+
+authors="Gaming Red Team"
+
+description='''
+Hello! This mod deals with a fantasy world filled with mystical arts and creatures. There is plenty of things to do with this mod from establishing kingdoms to making a garage filled with alcohol (Ben's idea), or even just living by yourself. Hope you enjoy this mod!
+- Gaming Red Team
+'''
+[[dependencies.kingdomcome]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kingdomcome]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
